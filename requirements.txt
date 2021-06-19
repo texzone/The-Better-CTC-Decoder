@@ -13,3 +13,4 @@ sentencepiece
 sacrebleu
 h5py
 tqdm
+openfst-python
