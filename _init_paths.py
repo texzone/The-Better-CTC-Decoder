@@ -14,6 +14,7 @@ def add_path(path):
 
 this_dir = os.path.dirname(__file__)
 
+
 # Add project path to PYTHONPATH
 proj_path = os.path.join(this_dir, '..')
 add_path(proj_path)
