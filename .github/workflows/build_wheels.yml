@@ -20,7 +20,6 @@ jobs:
           ./configure --enable-far=true
           make -j4
           sudo make install
-          sudo pip install -r requirements.txt
 
       - uses: actions/checkout@v2
 
