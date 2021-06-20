@@ -11,7 +11,7 @@ jobs:
 #      matrix:
 #        os: [ubuntu-20.04, windows-2019, macos-10.15]
 
-#    steps:
+    steps:
 #      - run: |
 #          sudo apt install graphviz
 #          wget http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.8.1.tar.gz
