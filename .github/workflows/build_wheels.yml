@@ -13,7 +13,11 @@ jobs:
 
     steps:
       - run: |
-          - sudo apt install graphviz; cd openfst-1.8.1/; ./configure --enable-far=true; make -j4; sudo make install; sudo pip install -r requirements.txt
+          - sudo apt install graphviz; cd openfst-1.8.1/
+          - ./configure --enable-far=true
+          - make -j4
+          - sudo make install
+          - sudo pip install -r requirements.txt
 
       - uses: actions/checkout@v2
 
