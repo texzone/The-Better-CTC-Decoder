@@ -2,7 +2,7 @@ cibuildwheel
 numpy
 nltk==3.2.5
 resampy
-pandas==0.23.0
+pandas
 six
 mpi4py
 joblib==0.13.2
@@ -14,3 +14,5 @@ sacrebleu
 h5py
 tqdm
 openfst-python
+requests
+Cython
