@@ -20,6 +20,8 @@ jobs:
           ./configure --enable-far=true
           make -j4
           sudo make install
+          echo "export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib" >> ~/.bashrc
+          source ~/.bashrc
 
       - uses: actions/checkout@v2
 
