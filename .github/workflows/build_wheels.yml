@@ -11,10 +11,10 @@ jobs:
         os: [ubuntu-20.04, macos-10.15]
 
     steps:
-      - name: Build openfst
-        - uses: actions/checkout@v2
-        - run: |
-            - sudo apt install graphviz; cd openfst-1.8.1/; ./configure --enable-far=true; make -j4; sudo make install; sudo pip install -r requirements.txt
+#      - name: Build openfst
+#        - uses: actions/checkout@v2
+#        - run: |
+#            - sudo apt install graphviz; cd openfst-1.8.1/; ./configure --enable-far=true; make -j4; sudo make install; sudo pip install -r requirements.txt
 
       - uses: actions/checkout@v2
 
