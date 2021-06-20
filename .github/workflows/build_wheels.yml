@@ -14,6 +14,8 @@ jobs:
     steps:
       - run: |
           sudo apt install graphviz
+          wget http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.8.1.tar.gz
+          tar -xzvf openfst-1.8.1.tar.gz
           cd openfst-1.8.1/
           ./configure --enable-far=true
           make -j4
